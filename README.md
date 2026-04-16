@@ -88,6 +88,9 @@ Metric	Value
 - Dice Score	0.89
 - IoU	0.80
 
+# NOTE: Weights from the final were saved for future evaluation final model. This helps reduce computation time compare to running it from the scratch. Below is the to the saved weights:
+https://drive.google.com/file/d/1g9-QBESuE3_Wl88TiiM35lMShx-mYI8q/view?usp=sharing
+
 # 📊 Baseline Comparison
 - Model	Accuracy
 - EfficientNet	0.48
