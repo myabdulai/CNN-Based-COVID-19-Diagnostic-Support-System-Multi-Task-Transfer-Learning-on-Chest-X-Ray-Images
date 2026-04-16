@@ -47,15 +47,15 @@ https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
 Images were resized to 224 × 224 and normalized.
 
 # ⚙️ Methodology
-- Baseline Models
+1. Baseline Models
 - EfficientNet
 - ResNet
 - DenseNet
 
-# Best Model Selection
+2. Best Model Selection
 DenseNet significantly outperformed others and was selected as the backbone.
 
-Fine-Tuning
+3. Fine-Tuning
 - Last 40 layers unfrozen
 - Learning rate: 1e-5
 
@@ -66,8 +66,7 @@ Fine-Tuning
 
 5️ Weight Transfer Strategy
 Instead of using ImageNet weights directly:
-
-The multi-task model was initialized using fine-tuned DenseNet weights, improving convergence and performance.
+- The multi-task model was initialized using fine-tuned DenseNet weights, improving convergence and performance.
 
 # 🏗️ Model Architecture
 - Encoder: DenseNet121 (pretrained)
