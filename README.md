@@ -64,7 +64,7 @@ DenseNet significantly outperformed others and was selected as the backbone.
 - Classification head
 - Segmentation decoder
 
-5️ Weight Transfer Strategy
+5️. Weight Transfer Strategy
 Instead of using ImageNet weights directly:
 - The multi-task model was initialized using fine-tuned DenseNet weights, improving convergence and performance.
 
@@ -94,6 +94,8 @@ Metric	Value
 - ResNet	0.48
 - DenseNet	0.82
 - Fine-Tuned DenseNet	0.89
+
+# Link to the recorded video
 
 # Contributors
 Mohammed Yushawu Abdulai: myabdula@mtu.edu/amyshhgh@gmail.com
