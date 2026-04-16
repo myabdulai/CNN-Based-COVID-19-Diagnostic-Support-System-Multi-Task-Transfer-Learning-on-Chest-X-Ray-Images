@@ -52,10 +52,10 @@ Images were resized to 224 × 224 and normalized.
 - ResNet
 - DenseNet
 
-2️ Best Model Selection
+# Best Model Selection
 DenseNet significantly outperformed others and was selected as the backbone.
 
-3️ Fine-Tuning
+Fine-Tuning
 - Last 40 layers unfrozen
 - Learning rate: 1e-5
 
