@@ -99,6 +99,7 @@ https://drive.google.com/file/d/1g9-QBESuE3_Wl88TiiM35lMShx-mYI8q/view?usp=shari
 - Fine-Tuned DenseNet	0.89
 
 # Link to the recorded video
+https://youtu.be/1R37Rcly5Rk?si=XPAc8vGqFT0ZAKBz
 
 # Contributors
 Mohammed Yushawu Abdulai: myabdula@mtu.edu/amyshhgh@gmail.com
